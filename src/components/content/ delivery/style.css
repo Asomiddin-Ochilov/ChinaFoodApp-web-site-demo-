@@ -1,0 +1,29 @@
+.block-main{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    position: relative;
+}
+.block-main img{
+    position: absolute;
+    right: -30%;
+    bottom: -14%;
+    z-index: -2;
+    width: 90%;
+}
+.block-item{
+    width: 40%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0.9rem 0;
+    justify-content: space-between;
+}
+.block-item i{
+    font-size: 40px;
+    color: rgb(252,91,5);
+}
+.block-item h3{
+    color: rgb(252,91,5);
+    margin: 4px 0;
+}

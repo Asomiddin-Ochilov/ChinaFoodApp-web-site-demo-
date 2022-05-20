@@ -1,0 +1,93 @@
+.row-card{
+    width: 90%;
+    height: 145px;
+    border: 1px solid gray;
+    margin: 1rem 0;
+    box-shadow: 1px 1px 18px 1px rgba(226, 229, 231, 0.09);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: rgba(45, 44, 44, 0.6);
+}
+.shop-text{
+    margin-bottom: 3rem;
+}
+.row-card img{
+    width: 150px;
+    height: 120px;
+    -webkit-box-reflect: below -19px linear-gradient(transparent,transparent,#0004);
+}
+.description{
+    border-right: 1px solid gray;
+    width: 56%;
+    text-align: justify;
+    padding-right: 2rem;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.description h4{
+    margin: 10px 0;
+}
+.description p{
+    font-size: 13px;
+}
+.money{
+    margin: 0.5rem 1.5rem;
+    font-size: 13px;
+    text-align: justify;
+}
+.money:nth-child(3){
+    color:rgb(255,95,4) ;
+}
+.money span{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+.row-count{
+    margin-left: 1.5rem;
+}
+.status{
+    height: 100%;
+    width: 65px;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 22px;
+    justify-content: center;
+    background-color: rgba(7, 7, 7, 0.57);
+    border-radius: 40px 10px 10px 40px;
+}
+.row-footer{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 1rem 0;
+}
+.row-footer p {
+    margin: 0 1.2rem;
+    color:rgb(255,95,4);
+}
+.row-footer p span{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+.row-footer button{
+    margin-left: 1.5rem;
+    height: 45px;
+    border-radius: 20px;
+    padding: 0 1.4rem;
+    border: 2px solid rgb(255,95,4);
+    color: white;
+    background: transparent;
+    cursor: pointer;
+}
+.row-footer button:nth-child(3){
+    border: none;
+    background-color: rgb(255,95,4);
+}

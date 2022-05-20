@@ -1,0 +1,33 @@
+.block-main{
+    position: relative !important;
+}
+.map-img{
+    right: 0 !important;
+    left: auto;
+    bottom: -24% !important;
+    width:50% !important;
+    height: 500px;
+    position: absolute !important;
+}
+.social-links{
+    width: 37%;
+    height: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-links img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    z-index: 1;
+    position: static;
+    margin: 0 8px;
+}
+.social-links .app-img{
+    width: 140px;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 10px;
+
+}

@@ -1,0 +1,66 @@
+.Container{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    animation-fill-mode: both;
+    animation-duration: 800ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: anim;
+   position: relative;
+
+}
+@keyframes anim {
+    0% {
+        opacity: 0;
+        /*transform: translate3d(0px, 10%, 0px);*/
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+.navbar-label{
+    font-size: 115px;
+    right: 7%;
+    top: 0;
+    z-index: -1;
+    color: rgb(38,38,38);
+    letter-spacing: 8px;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    transform: rotate(90deg);
+}
+.carousel-1{
+    width: 90%;
+    height: 95vh;
+}
+.item{
+    width: 600px;
+    height: 590px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.item img{
+    width: 80%;
+    height: 80%;
+    filter: drop-shadow(0 0 0.75rem rgb(253,92,6));
+}
+.thumbs-wrapper , .legend , .control-arrow, .carousel-status {
+    display: none;
+}
+.dot{
+    border: 1px solid white !important;
+    background: transparent !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+.dot.selected{
+   background: rgb(253,92,6) !important;
+    border: none !important;
+}
